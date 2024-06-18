@@ -4,6 +4,10 @@
 
 ``` Spring Boot``` ```MySQL Database``` ```Spring Data JPA``` ```IntelliJ Idea```  ```REACT JS``` ```Bootstrap CSS``` ```Axios``` ```Visual Studio Code```
 
+## Project Description
+
+QuizMate is an online quiz application designed to facilitate the creation and management of quizzes. The backend is powered by Spring Boot, the frontend is developed using React.js, and the database is managed with MySQL. The platform includes an admin panel for managing questions and a user interface for taking quizzes.
+
 ## Project Directory Structure:
 
 <table>
@@ -15,6 +19,39 @@
     </tr>
     </tr>
 </table>
+
+## Features:-
+
+### Admin Panel
+
+		1.Question Management:
+
+- Add questions to specific subjects.
+- Choose between single correct answer or multiple correct answers.
+- Edit existing questions and answers.
+- Delete questions from the database.
+- Unlimited subjects for categorizing questions.
+
+		2.Question Preview:
+
+- View all questions available in the database.
+- Filter and search questions by subject.
+
+### Quiz Taking
+		1.Quiz Configuration:
+
+- Select subject for the quiz.
+- Choose the number of questions for the quiz.
+- Question Presentation:
+
+		2.Questions are randomly selected.
+- Questions are shuffled to ensure variability.
+- Navigate between questions using previous and next buttons.
+
+		3.Quiz Submission:
+
+- Submit quiz upon completion.
+- Receive result as a percentage score.
 
 
 ## Application Overview📝:-
